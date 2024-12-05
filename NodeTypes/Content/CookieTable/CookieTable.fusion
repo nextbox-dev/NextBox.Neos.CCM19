@@ -1,0 +1,4 @@
+prototype(NextBox.Neos.CCM19:Content.CookieTable) < prototype(Neos.Neos:ContentComponent) {
+    // Rendering
+    renderer = NextBox.Neos.CCM19:Component.Atom.CookieTable
+}

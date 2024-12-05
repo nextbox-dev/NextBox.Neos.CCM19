@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="NextBox.Neos.CCM19" source-language="en" target-language="de" datatype="plaintext">
+        <body>
+            <trans-unit id="properties.ccm19ApiKey">
+                <source>API-Key</source>
+                <target state="final">API-Key</target>
+            </trans-unit>
+            <trans-unit id="properties.ccm19DomainKey">
+                <source>Domain-Key</source>
+                <target state="final">Domain-Key</target>
+            </trans-unit>
+            <trans-unit id="groups.ccm19">
+                <source>CCM19</source>
+                <target state="final">CCM19</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="NextBox.Neos.CCM19" source-language="en" target-language="de" datatype="plaintext">
+        <body>
+            <trans-unit id="ui.label">
+                <source>Cookie-Table</source>
+                <target>Cookie-Tabelle</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

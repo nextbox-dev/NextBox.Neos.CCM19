@@ -1,0 +1,8 @@
+prototype(NextBox.Neos.CCM19:Component.Atom.CookieTable) < prototype(Neos.Fusion:Component) {
+    // Renderer
+    renderer = afx`
+        <div class="ccm-cookie-declaration">
+            Please enable JavaScript to see the list of all cookies and similar technologies declared.
+        </div>
+    `
+}

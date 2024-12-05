@@ -1,0 +1,17 @@
+NextBox:
+  Neos:
+    CCM19:
+      apiKey: ''
+      domainKey: ''
+      ccmScriptUrl: https://cloud.ccm19.de
+
+Neos:
+  Neos:
+    fusion:
+      autoInclude:
+        'NextBox.Neos.CCM19': true
+    userInterface:
+      translation:
+        autoInclude:
+          'NextBox.Neos.CCM19':
+            - 'NodeTypes/*'

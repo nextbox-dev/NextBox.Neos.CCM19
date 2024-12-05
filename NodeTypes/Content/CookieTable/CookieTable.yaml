@@ -1,0 +1,7 @@
+'NextBox.Neos.CCM19:Content.CookieTable':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    label: i18n
+    icon: fas fa-cookie
+    position: end

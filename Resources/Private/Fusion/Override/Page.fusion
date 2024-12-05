@@ -1,0 +1,13 @@
+prototype(Neos.Neos:Page) {
+    cookieBot = Neos.Fusion:Value {
+        apiKey = ${!String.isBlank(q(site).property('ccm19ApiKey')) ? q(site).property('ccm19ApiKey') : Configuration.setting('NextBox.Neos.CCM19.apiKey')}
+        domainKey = ${!String.isBlank(q(site).property('ccm19DomainKey')) ? q(site).property('ccm19DomainKey') : Configuration.setting('NextBox.Neos.CCM19.domainKey')}
+        ccmScriptUrl = ${Configuration.setting('NextBox.Neos.CCM19.ccmScriptUrl')}
+
+        value = ${'<script src="' + this.ccmScriptUrl + '/app.js?apiKey=' + this.apiKey + '&domain=' + this.domainKey + '&lang=de_DE" referrerpolicy="origin"></script>'}
+
+        @if.enable = ${!String.isBlank(this.apiKey) && !String.isBlank(this.domainKey) && !String.isBlank(this.ccmScriptUrl)}
+        @if.notInBackend = ${!site.context.inBackend}
+        @position = 'before head'
+    }
+}

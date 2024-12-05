@@ -1,0 +1,2 @@
+include: nodetypes://NextBox.Neos.CCM19/**/*.fusion
+include: **/*.fusion

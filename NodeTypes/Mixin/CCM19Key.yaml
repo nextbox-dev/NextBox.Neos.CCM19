@@ -1,0 +1,26 @@
+'NextBox.Neos.CCM19:Mixin.CCM19Key':
+  abstract: true
+  ui:
+    inspector:
+      groups:
+        ccm19:
+          label: i18n
+          icon: fas fa-cookie
+          position: 'end'
+  properties:
+    ccm19ApiKey:
+      type: string
+      defaultValue: ''
+      ui:
+        label: i18n
+        inspector:
+          group: ccm19
+          position: 10
+    ccm19DomainKey:
+      type: string
+      defaultValue: ''
+      ui:
+        label: i18n
+        inspector:
+          group: ccm19
+          position: 20
